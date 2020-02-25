@@ -1,0 +1,2 @@
+inflection==1.4.0
+azure.cognitiveservices.speech==1.9.0
