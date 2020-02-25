@@ -16,7 +16,6 @@ speech_key, service_region = os.getenv('AZURE_SPEECH_KEY'), os.getenv('AZURE_RES
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
 answer = ""
-
 def speech_recognize_continuous_from_file(audio_path):
     """performs continuous speech recognition with input from an audio file"""
     # global answer
